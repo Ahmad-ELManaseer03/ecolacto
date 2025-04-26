@@ -20,7 +20,7 @@
             echo '<script language="JavaScript">
         alert ("Account Already exist !")
         </script>';
-
+//kk 
         } else {
 
             $stmt = $con->prepare("INSERT INTO users (user_type_id, name, email, phone, password, image) VALUES (?, ?, ?, ?, ?, ?) ");
